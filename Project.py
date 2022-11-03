@@ -5,7 +5,7 @@ import keyboard
 import random
 import win32api, win32con
 
-wdir = 'C:/Users/afeef/OneDrive/Documents/ECE_415/Project'
+wdir = 'C:/Users/afeef/OneDrive/Documents/ECE_415/Project/ECE_415_Final_Project'
 
 while 1:  
     if pyautogui.locateOnScreen('flower.png', confidence = 0.8) != None:
